@@ -23,6 +23,24 @@ npm install
 
 ## Run the Local Simulator
 
+The project has two demonstration modes: a browser UI for interactive play and the original console mode for terminal demos.
+
+### Browser UI (React + Vite)
+
+Start the interactive web interface with a React Flow network map, simulation controls, architecture toggles, metrics, review findings, and coach hints:
+
+```bash
+npm run dev
+```
+
+Build the production browser bundle with:
+
+```bash
+npm run build
+```
+
+### Console mode
+
 Run the deterministic simulator without external credentials:
 
 ```bash
